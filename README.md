@@ -1,4 +1,4 @@
-# ColdSpring 1.2 - Dependency Injection Framework
+# ColdSpring 1.2.1 - Dependency Injection Framework
 
 ColdSpring makes the configuration and dependencies of your CFCs easier to manage. ColdSpring brings the power of the popular Spring framework for Java to ColdFusion. ColdSpring is also the first Aspect-Oriented-Programming (AOP) framework for CFCs. ColdSpring plays well with other frameworks, like Mach-II, Model-Glue, and Fusebox. Get Started with ColdSpring
 
@@ -6,6 +6,9 @@ For more information see http://coldspringframework.org
 
 >### A Note from WolfNet
 >We are hosting this repository on our account not becuase it is our project but because we could not find a source respository on GitHub.  Please feel free to fork and contribute to the project but know that version 1.2 is no longer being supported.  For the current version (2.0), which is in Alpha, please see https://github.com/markmandel/coldspring.
+
+>### And another note... from Josh Curtiss
+>I appreciate WolfNet hosting this on GitHub. Now, on to the issue that ColdSpring is broken in ColdFusion 2018. This incorporates the fix as described in this [Coldspring Issue on ColdFusion 2018](https://community.adobe.com/t5/-/-/td-p/9653196) forum thread. Since this appears to be a dead project, I took the liberty to fork it and call this patched version 1.2.1.
 
 ## Documentation
 For ColdSpring documentation please see http://coldspringframework.org/index.cfm/go/documentation
