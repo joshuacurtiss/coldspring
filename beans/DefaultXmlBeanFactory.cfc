@@ -240,7 +240,7 @@
 		<cfset var aliases = 0 />
 		<cfset var aliasIx = 0 />
 		<cfset var aliasAttributes = 0 />
-		<cfset var abstract = false />
+		<cfset var abstractn = false />
 		<cfset var parent = "" />
 		<cfset var beanMetadata = ""/>
 		
@@ -375,9 +375,9 @@
 				
 				<!--- look for abstract flag, and parent bean def --->			
 				<cfif StructKeyExists(beanAttributes,'abstract')>
-					<cfset abstract = beanAttributes.abstract />
+					<cfset abstractn = beanAttributes.abstract />
 				<cfelse>
-					<cfset abstract = false />
+					<cfset abstractn = false />
 				</cfif>
 				
 				<cfif StructKeyExists(beanAttributes,'parent')>
@@ -400,7 +400,7 @@
 											autowire,
 											factoryPostProcessor,
 											beanPostProcessor,
-											abstract,
+											abstractn,
 											parent) />
 				<cfelse>
 					<cfset createBeanDefinition(beanAttributes.id, 
@@ -415,7 +415,7 @@
 											autowire,
 											false,
 											false,
-											abstract,
+											abstractn,
 											parent) />
 				</cfif>
 			
